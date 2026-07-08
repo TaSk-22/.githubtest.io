@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>リンク集</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f5f7fb;
+      color: #222;
+    }
+    .container {
+      width: min(90%, 560px);
+      background: white;
+      padding: 32px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+    p {
+      color: #666;
+      margin-bottom: 24px;
+    }
+    .links {
+      display: grid;
+      gap: 12px;
+    }
+    a.link {
+      display: block;
+      padding: 14px 16px;
+      background: #eef3ff;
+      color: #1d4ed8;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+    a.link:hover {
+      background: #dbe7ff;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>各種リンク</h1>
+    <p>よく使うページへすぐ飛べます。</p>
+
+    <div class="links">
+      <a class="link" href="https://example.com" target="_blank" rel="noopener noreferrer">公式サイト</a>
+      <a class="link" href="https://example.com/about" target="_blank" rel="noopener noreferrer">会社概要</a>
+      <a class="link" href="https://example.com/contact" target="_blank" rel="noopener noreferrer">お問い合わせ</a>
+    </div>
+  </main>
+</body>
+</html>
